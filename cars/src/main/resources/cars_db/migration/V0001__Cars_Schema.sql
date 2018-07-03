@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS car (
+  id BIGINT NOT NULL,
+  plate CHAR(7) NOT NULL,
+  model VARCHAR(25) NOT NULL,
+  brand VARCHAR(25) NOT NULL,
+  PRIMARY KEY (id)
+);
