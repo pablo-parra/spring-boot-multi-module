@@ -1,31 +1,17 @@
-package pab.par.dom.drivers.dataaccess.entity;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.validation.constraints.NotNull;
+package pab.par.dom.drivers.drivermanagement.logic.dto;
 
 /**
- * Entity class for driver table
+ * Data Transfer Object for Driver entity
  *
  */
-@Entity
-@Table(name = "driver")
-public class Driver {
+public class DriverDTO {
 
-  @Id
   private Integer id;
 
-  @NotNull
   private String name;
 
-  @Column(name = "last_name")
-  @NotNull
   private String lastName;
 
-  @Column(name = "car_plate")
-  @NotNull
   private String carPlate;
 
   /**

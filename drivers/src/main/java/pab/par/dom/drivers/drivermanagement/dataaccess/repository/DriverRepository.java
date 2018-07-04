@@ -1,8 +1,8 @@
-package pab.par.dom.drivers.dataaccess.repository;
+package pab.par.dom.drivers.drivermanagement.dataaccess.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import pab.par.dom.drivers.dataaccess.entity.Driver;
+import pab.par.dom.drivers.drivermanagement.dataaccess.entity.Driver;
 
 /**
  * Repository for Driver entity

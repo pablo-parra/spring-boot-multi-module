@@ -1,4 +1,4 @@
-package pab.par.dom.cars.logic.management.impl;
+package pab.par.dom.cars.carmanagement.logic.bussines.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import pab.par.dom.cars.dataaccess.entity.Car;
-import pab.par.dom.cars.dataaccess.repository.CarRepository;
-import pab.par.dom.cars.logic.dto.CarDTO;
-import pab.par.dom.cars.logic.management.Carmanagement;
+import pab.par.dom.cars.carmanagement.dataaccess.entity.Car;
+import pab.par.dom.cars.carmanagement.dataaccess.repository.CarRepository;
+import pab.par.dom.cars.carmanagement.logic.bussines.Carmanagement;
+import pab.par.dom.cars.carmanagement.logic.dto.CarDTO;
 
 /**
  * Implementation for {@link Carmanagement}

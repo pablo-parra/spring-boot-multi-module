@@ -1,4 +1,4 @@
-package pab.par.dom.drivers.logic.management.impl;
+package pab.par.dom.drivers.drivermanagement.logic.bussines.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import pab.par.dom.drivers.dataaccess.entity.Driver;
-import pab.par.dom.drivers.dataaccess.repository.DriverRepository;
-import pab.par.dom.drivers.logic.dto.DriverDTO;
-import pab.par.dom.drivers.logic.management.Drivermanagement;
+import pab.par.dom.drivers.drivermanagement.dataaccess.entity.Driver;
+import pab.par.dom.drivers.drivermanagement.dataaccess.repository.DriverRepository;
+import pab.par.dom.drivers.drivermanagement.logic.bussines.Drivermanagement;
+import pab.par.dom.drivers.drivermanagement.logic.dto.DriverDTO;
 
 /**
  * Implementation for Drivermanagement interface

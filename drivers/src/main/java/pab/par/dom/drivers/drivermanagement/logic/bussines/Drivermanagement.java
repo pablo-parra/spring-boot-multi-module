@@ -1,8 +1,8 @@
-package pab.par.dom.drivers.logic.management;
+package pab.par.dom.drivers.drivermanagement.logic.bussines;
 
 import java.util.List;
 
-import pab.par.dom.drivers.logic.dto.DriverDTO;
+import pab.par.dom.drivers.drivermanagement.logic.dto.DriverDTO;
 
 /**
  * Interface for the logic layer of the driver management

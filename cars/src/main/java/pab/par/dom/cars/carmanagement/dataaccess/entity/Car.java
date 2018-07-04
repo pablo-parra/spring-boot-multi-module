@@ -1,4 +1,4 @@
-package pab.par.dom.cars.dataaccess.entity;
+package pab.par.dom.cars.carmanagement.dataaccess.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

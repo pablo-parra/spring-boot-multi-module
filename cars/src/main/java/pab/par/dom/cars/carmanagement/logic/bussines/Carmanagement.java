@@ -1,8 +1,8 @@
-package pab.par.dom.cars.logic.management;
+package pab.par.dom.cars.carmanagement.logic.bussines;
 
 import java.util.List;
 
-import pab.par.dom.cars.logic.dto.CarDTO;
+import pab.par.dom.cars.carmanagement.logic.dto.CarDTO;
 
 /**
  * Interface for Car management logic

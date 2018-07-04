@@ -1,4 +1,4 @@
-package pab.par.dom.cars.logic.dto;
+package pab.par.dom.cars.carmanagement.logic.dto;
 
 /**
  * Data Transfer Object for Car entity
