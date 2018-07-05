@@ -58,12 +58,10 @@
     </dependency>
     
     
-     <!-- H2 Database -->
+     <!-- H2 Database (only for testing) -->
      <dependency>
        <groupId>com.h2database</groupId>
        <artifactId>h2</artifactId>
-       <!-- <scope>test</scope> -->
-       <scope>runtime</scope>
      </dependency>
 		
 	</dependencies>

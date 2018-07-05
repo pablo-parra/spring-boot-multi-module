@@ -47,13 +47,18 @@
         <version>2.0.1.Final</version>
     </dependency>
     
-    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+    <!-- PostgreSQL Database -->
     <dependency>
         <groupId>org.postgresql</groupId>
         <artifactId>postgresql</artifactId>
         <version>9.4.1211.jre7</version>
     </dependency>
     
+     <!-- H2 Database (only for testing) -->
+     <dependency>
+       <groupId>com.h2database</groupId>
+       <artifactId>h2</artifactId>
+     </dependency>
     
 	</dependencies>
 
