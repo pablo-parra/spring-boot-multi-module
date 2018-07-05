@@ -29,6 +29,14 @@ public class CarmanagementImpl implements Carmanagement {
     return toCarDtoList(this.carRepository.findAll());
   }
 
+  @Override
+  public CarDTO getCarByPlate(String plate) {
+
+    Car car = new Car();
+    car.setPlate(plate);
+    return toCarDto(this.carRepository.findByPlate(plate));
+  }
+
   // This is only for example purposes. Implement your preferred mapping solution
   private List<CarDTO> toCarDtoList(List<Car> drivers) {
 

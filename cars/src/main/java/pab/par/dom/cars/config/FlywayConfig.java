@@ -24,8 +24,6 @@ public class FlywayConfig {
   @Value("${cars.flyway.locations}")
   private String flywayScriptsLocation;
 
-  private static final String classpath = "classpath:";
-
   /** The JDBC data source. */
   @Autowired
   @Qualifier("carsDataSource")
@@ -43,7 +41,7 @@ public class FlywayConfig {
     if (this.flywayEnabled) {
       final Flyway flyway = new Flyway();
       flyway.setDataSource(this.dataSource);
-      flyway.setLocations(classpath + this.flywayScriptsLocation);
+      flyway.setLocations(this.flywayScriptsLocation);
 
       if (this.clean) {
         flyway.clean();
