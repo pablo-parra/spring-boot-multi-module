@@ -31,4 +31,8 @@ C:\...> docker run -d --name cars_db -p 6543:6543 cars_db_img:0.0.1
 C:\...> docker start cars_db
 
 
+# References
+- https://medium.com/@joeclever/using-multiple-datasources-with-spring-boot-and-spring-data-6430b00c02e7
+- https://blog.frankel.ch/multiple-modules-spring-boot-apps/
+- https://stackoverflow.com/questions/37281229/multiple-datasources-migrations-using-flyway-in-a-spring-boot-application/39409113
 
