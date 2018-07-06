@@ -1,10 +1,12 @@
 # spring-boot-multi-module
 Spring Boot project based on several spring boot modules (sub-projects) each one pointing to different DBs and configured with different Flyway instances
 
+# Details
+* Spring-boot-multi-module (parent project)
+  * Drivers project (spring boot sub module) Acts like main module --> points to a MySQL DB
+  * Cars project (spring boot sub module) Acts like library module --> points to a PostgreSQL DB
 
-
-
-
+Each submodule, _Drivers_ and _Cars_, have also different [H2](http://www.h2database.com/html/main.html) instances (for tests) and [Flyway](https://flywaydb.org/) (for db migrations)
 
 # DBs with docker
 
